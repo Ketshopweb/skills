@@ -11,7 +11,7 @@ Talk to the user in the language they write in (most shop owners write Thai). Ke
 
 ## Before anything else
 
-1. **Is the MCP connected?** Look for tools such as `page_list` and `guide` in your tool list. If they are missing, follow [connect.md](connect.md) and help the user connect `https://<shop-domain>/portal/_brust/action/mcp`. Without the connection you cannot change the shop; say so instead of guessing.
+1. **Is the MCP connected?** Look for tools such as `page_list` and `guide` in your tool list. If they are missing, follow [connect.md](connect.md) and help the user connect `https://mcp.ketshopweb.com/<shop-domain>` (`<shop-domain>` = the shop's main domain). Without the connection you cannot change the shop; say so instead of guessing.
 2. **Call `guide` once per session** (no arguments) before the first page edit, and `element_guide` (no arguments) before writing any TSX. They are the server's own, always-current rules and op shapes. The text is largely in Thai. If this skill and a guide disagree, the guide wins.
 3. **Exact input schemas come from the tool list**, not from memory. Never invent a tool, an op, a key or an Element kind.
 
